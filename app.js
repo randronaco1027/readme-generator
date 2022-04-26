@@ -29,13 +29,23 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'guidelines',
+            name: 'contributing',
             message: 'Please provide the contribution guidelines'
         },
         {
             type: 'input',
-            name: 'instructions',
+            name: 'tests',
             message: 'Please provide the test instructions'
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Please provide your GitHub username'
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Please provide your email'
         },
         {
             type: 'checkbox',

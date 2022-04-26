@@ -28,11 +28,12 @@ Install
 Usage
 
 ## Contributing 
-Guidelines
+Contribution
 
 ## Tests
 Testing
 
 ## Questions
-You can find my GitHub here: <a href="https://github.com/ + randronaco1027" target="_blank">GitHub</a>
+You can find my GitHub here: <a href="https://github.com/randronaco1027" target="_blank">GitHub</a>
+
 For any questions you can email me at: randronaco1027@gmail.com

@@ -69,7 +69,8 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-You can find my GitHub here: <a href="https://github.com/ + ${data.github}" target="_blank">GitHub</a>
+You can find my GitHub here: <a href="https://github.com/${data.github}" target="_blank">GitHub</a>
+
 For any questions you can email me at: ${data.email}
 `;
 }

@@ -1,7 +1,12 @@
-const inquirer = require("inquirer")
+// TODO: Include packages needed for this application
+const fs = require("fs");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generate-readme");
 
 
-    inquirer.prompt([
+// TODO: Create an array of questions for user input
+const questions = () => {
+    return inquirer.prompt([
         {
             type: 'input',
             name: 'title',
@@ -37,8 +42,23 @@ const inquirer = require("inquirer")
             name: 'badge',
             message: 'Please select the badge you wish to display',
             choices: ['badge1', 'badge2', 'badge3', 'badge4']
-        },
+        }
     ])
-    .then(answers => {
-        console.log(answers)
-    })
+}
+
+questions()
+.then(data => {
+    console.log(data)
+    const generateContent = generateMarkdown(data)
+    fs.writeFileSync('./dist/README.md', generateContent)
+})
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) { }
+
+// TODO: Create a function to initialize app
+function init() { }
+
+// Function call to initialize app
+init()
+

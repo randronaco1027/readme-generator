@@ -38,6 +38,12 @@ const questions = () => {
             message: 'Please provide the test instructions'
         },
         {
+            type: 'checkbox',
+            name: 'badge',
+            message: 'Please select the badge you wish to display',
+            choices: ['JavaScript', 'Node.js', 'NPM']
+        },
+        {
             type: 'input',
             name: 'github',
             message: 'Please provide your GitHub username'
@@ -46,12 +52,6 @@ const questions = () => {
             type: 'input',
             name: 'email',
             message: 'Please provide your email'
-        },
-        {
-            type: 'checkbox',
-            name: 'badge',
-            message: 'Please select the badge you wish to display',
-            choices: ['badge1', 'badge2', 'badge3', 'badge4']
         }
     ])
 }
@@ -60,7 +60,7 @@ questions()
 .then(data => {
     console.log(data)
     const generateContent = generateMarkdown(data)
-    fs.writeFileSync('./dist/README.md', generateContent)
+    fs.writeFileSync('./README.md', generateContent)
 })
 
 // TODO: Create a function to write README file

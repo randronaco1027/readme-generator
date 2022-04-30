@@ -27,7 +27,7 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-<a href="https://drive.google.com/file/d/1fwUH0hWD6ggLkbhbljqM7N0pr5f13LGc/view?usp=sharing> View a demo of the app here! </a>
+<a href="https://drive.google.com/file/d/1fwUH0hWD6ggLkbhbljqM7N0pr5f13LGc/view?usp=sharing"> View a demo of the app here! </a>
 
 ## Contributing 
 ${data.contributing}

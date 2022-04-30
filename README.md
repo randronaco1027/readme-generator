@@ -1,5 +1,5 @@
 # README Generator
-![License](http://img.shields.io/badge/license-isc-blue.svg)
+![License](http://img.shields.io/badge/license-wtfpl-green.svg)
 
 ## User Story
 AS A developer
@@ -17,19 +17,19 @@ SO THAT I can quickly create a professional README for a new project
 - [Tests](#tests)
 
 ## Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+LoremMust call super constructor in derived class before accessing 'this' or returning from derived constructor
 
 ## Installation
-npm init > npm install inquirer
+npm init, npm install inquirer
 
 ## Usage
-To generate a README file from the command line
+usage
 
 ## Contributing 
-Ray Andronaco
+me
 
 ## Tests
-node app.js
+node index.js
 
 ## Questions
 You can find my GitHub here: <a href="https://github.com/randronaco1027" target="_blank">GitHub</a>

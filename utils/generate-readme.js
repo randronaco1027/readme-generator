@@ -1,6 +1,7 @@
+// Print data from prompts for README
 function generateMarkdown(data) {
     return `# ${data.title}
-![License](http://img.shields.io/badge/license-${data.badge}-blue.svg)
+![License](http://img.shields.io/badge/license-${data.badge}-green.svg)
 
 ## User Story
 AS A developer

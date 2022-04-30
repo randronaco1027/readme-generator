@@ -24,7 +24,7 @@ npm init, npm install inquirer
 
 ## Usage
 This program can be used to simply create a README with the proper formatting already completed for you!
-<img src="./src/Screen Recording 2022-04-30 at 6.15.30 PM.mov">
+<a href="https://drive.google.com/file/d/1fwUH0hWD6ggLkbhbljqM7N0pr5f13LGc/view?usp=sharing" target="_blank"> Link to my demo </a>
 
 ## Contributing 
 Ray Andronaco @randronaco1027
